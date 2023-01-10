@@ -1,0 +1,49 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+1 info using npm@8.5.5
+2 info using node@v17.9.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/home/ubuntu/test/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 13ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 22ms
+19 timing npm:load:configload Completed in 23ms
+20 timing npm:load:setTitle Completed in 0ms
+21 timing config:load:flatten Completed in 4ms
+22 timing npm:load:display Completed in 6ms
+23 verbose logfile /home/ubuntu/.npm/_logs/2023-01-08T15_32_32_110Z-debug-0.log
+24 timing npm:load:logFile Completed in 6ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 35ms
+28 silly logfile start cleaning logs, removing 1 files
+29 timing command:run-script Completed in 4ms
+30 timing command:start Completed in 9ms
+31 verbose stack Error: ENOENT: no such file or directory, open '/home/ubuntu/test/package.json'
+32 verbose cwd /home/ubuntu/test
+33 verbose Linux 5.4.0-1092-aws
+34 verbose argv "/usr/bin/node" "/usr/bin/npm" "start"
+35 verbose node v17.9.0
+36 verbose npm  v8.5.5
+37 error code ENOENT
+38 error syscall open
+39 error path /home/ubuntu/test/package.json
+40 error errno -2
+41 error enoent ENOENT: no such file or directory, open '/home/ubuntu/test/package.json'
+42 error enoent This is related to npm not being able to find a file.
+42 error enoent
+43 verbose exit -2
+44 timing npm Completed in 193ms
+45 verbose code -2
+46 error A complete log of this run can be found in:
+46 error     /home/ubuntu/.npm/_logs/2023-01-08T15_32_32_110Z-debug-0.log
